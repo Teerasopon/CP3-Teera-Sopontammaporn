@@ -7,7 +7,7 @@ def showBill():
     for n in range(len(menuList)):
         print(menuList[n],priceList[n])
         totalPrice = totalPrice + int(priceList[n])
-    print("Totsal Price : ",totalPrice)
+    print("Total Price : ",totalPrice)
 
 
 while True:
